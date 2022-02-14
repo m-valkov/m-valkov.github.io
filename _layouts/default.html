@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- <script src="/assets/js/lunr.min.js"></script>
+    <script src="/assets/js/search.js"></script> -->
+
     {% include head-custom.html %}
   </head>
   <body>
@@ -22,8 +25,10 @@
         <nav>
           <ul>
             <li class="fork"><a href="/">Home</a></li>
+            
             <li class="downloads"><a href="{{ site.github.owner_url }}">I'm on GitHub</a></li>
             <li class="downloads"><a href="/about">About me</a></li>
+            <li class="downloads"><a href="/search">Search</a></li>
             {% if site.show_downloads %}
               <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
               <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
