@@ -31,7 +31,7 @@ permalink: /:categories/:year/:month/:day/:title
 excerpt_separator: <!--more-->
 show_excerpts: true
 # Build settings
-theme: jekyll-theme-midnight
+theme: jekyll-theme-modernist
 plugins:
   - jekyll-feed
 show_downloads: false
