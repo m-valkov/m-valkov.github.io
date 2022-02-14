@@ -26,7 +26,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "blog.w-tech.art" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  m-valkov
-
+lang: "ru-RU"
+permalink: /:categories/:year/:month/:day/:title
+excerpt_separator: <!--more-->
+show_excerpts: true
 # Build settings
 theme: jekyll-theme-midnight
 plugins:
